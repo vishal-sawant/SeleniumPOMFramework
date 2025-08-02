@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.*;
-//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
     private static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
