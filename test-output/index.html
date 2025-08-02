@@ -155,18 +155,18 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;ParallelSuite&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;EdgeTests&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- EdgeTests --&gt;
   &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;ChromeTests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;EdgeTests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTests --&gt;
 &lt;/suite&gt; &lt;!-- ParallelSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -178,10 +178,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">EdgeTests (1 class)</span>
+                <span class="test-name">ChromeTests (1 class)</span>
               </li>
               <li>
-                <span class="test-name">ChromeTests (1 class)</span>
+                <span class="test-name">EdgeTests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,16 +211,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLogin')
 data.setCell(0, 2, 'tests.LoginTest')
-data.setCell(0, 3, 1800);
+data.setCell(0, 3, 1827);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogin')
 data.setCell(1, 2, 'tests.LoginTest')
-data.setCell(1, 3, 1760);
+data.setCell(1, 3, 1796);
 window.suiteTableData['ParallelSuite']= { tableData: data, tableDiv: 'times-div-ParallelSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-ParallelSuite">
               </div> <!-- times-div-ParallelSuite -->
             </div> <!-- times-div -->
@@ -252,24 +252,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">2006 ms</span>
+                <span class="method-start">1837 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">2008 ms</span>
+                <span class="method-start">1844 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3772 ms</span>
+                <span class="method-start">3652 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3809 ms</span>
+                <span class="method-start">3670 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
