@@ -24,12 +24,12 @@ public class TestBase {
     	    driver = new EdgeDriver();*/
     		System.setProperty("webdriver.edge.driver", "drivers\\msedgedriver.exe");
     		EdgeOptions options = new EdgeOptions();
-    		options.addArguments("--headless=new");  // or fallback to --headless
+    		options.addArguments("--headless");  // or fallback to --headless
     		options.addArguments("--disable-gpu");
     		options.addArguments("--no-sandbox");
     		options.addArguments("--disable-dev-shm-usage");
     		options.addArguments("--disable-software-rasterizer");
-    		options.setBinary("C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe");  // Use 64-bit
+    		//options.setBinary("C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe");  // Use 64-bit
     	    driver = new EdgeDriver(options);
 
     	}
