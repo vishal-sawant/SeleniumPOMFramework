@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-02T14:57:31 IST" name="ParallelSuite" finished-at="2025-08-02T14:57:35 IST" duration-ms="4141">
+    <groups>
+    </groups>
+    <test started-at="2025-08-02T14:57:31 IST" name="EdgeTests" finished-at="2025-08-02T14:57:35 IST" duration-ms="4005">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@35f26e72]" started-at="2025-08-02T14:57:31 IST" name="setUp" finished-at="2025-08-02T14:57:32 IST" duration-ms="1735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:tests.LoginTest@35f26e72]" started-at="2025-08-02T14:57:32 IST" name="testLogin" finished-at="2025-08-02T14:57:34 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@35f26e72]" started-at="2025-08-02T14:57:34 IST" name="tearDown" finished-at="2025-08-02T14:57:35 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- EdgeTests -->
+    <test started-at="2025-08-02T14:57:31 IST" name="ChromeTests" finished-at="2025-08-02T14:57:35 IST" duration-ms="4140">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@7241a47d]" started-at="2025-08-02T14:57:31 IST" name="setUp" finished-at="2025-08-02T14:57:32 IST" duration-ms="1720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:tests.LoginTest@7241a47d]" started-at="2025-08-02T14:57:32 IST" name="testLogin" finished-at="2025-08-02T14:57:35 IST" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7241a47d]" started-at="2025-08-02T14:57:35 IST" name="tearDown" finished-at="2025-08-02T14:57:35 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- ChromeTests -->
+  </suite> <!-- ParallelSuite -->
+</testng-results>
