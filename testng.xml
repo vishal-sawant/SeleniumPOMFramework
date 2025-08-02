@@ -1,7 +1,7 @@
 
 <suite name="ParallelSuite" parallel="tests" thread-count="2">
     <test name="EdgeTests">
-    	<parameter name="browser" value="edge"/>
+    	<parameter name="browser" value="chrome"/>
         <classes>
             <class name="tests.LoginTest"/>
         <!--   <class name="tests.SearchTest"/>

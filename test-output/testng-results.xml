@@ -2,35 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-02T13:35:06 IST" name="ParallelSuite" finished-at="2025-08-02T13:35:10 IST" duration-ms="4153">
+  <suite started-at="2025-08-02T13:38:10 IST" name="ParallelSuite" finished-at="2025-08-02T13:38:14 IST" duration-ms="4086">
     <groups>
     </groups>
-    <test started-at="2025-08-02T13:35:06 IST" name="EdgeTests" finished-at="2025-08-02T13:35:10 IST" duration-ms="4122">
+    <test started-at="2025-08-02T13:38:10 IST" name="EdgeTests" finished-at="2025-08-02T13:38:14 IST" duration-ms="4073">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@28a0fd6c]" started-at="2025-08-02T13:35:06 IST" name="setUp" finished-at="2025-08-02T13:35:08 IST" duration-ms="1822" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:tests.LoginTest@28a0fd6c]" started-at="2025-08-02T13:35:08 IST" name="testLogin" finished-at="2025-08-02T13:35:10 IST" duration-ms="1973" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@28a0fd6c]" started-at="2025-08-02T13:35:10 IST" name="tearDown" finished-at="2025-08-02T13:35:10 IST" duration-ms="274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.LoginTest -->
-    </test> <!-- EdgeTests -->
-    <test started-at="2025-08-02T13:35:06 IST" name="ChromeTests" finished-at="2025-08-02T13:35:10 IST" duration-ms="4153">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@b91d8c4]" started-at="2025-08-02T13:35:06 IST" name="setUp" finished-at="2025-08-02T13:35:08 IST" duration-ms="1822" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@28a0fd6c]" started-at="2025-08-02T13:38:10 IST" name="setUp" finished-at="2025-08-02T13:38:12 IST" duration-ms="2007" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +18,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:tests.LoginTest@b91d8c4]" started-at="2025-08-02T13:35:08 IST" name="testLogin" finished-at="2025-08-02T13:35:10 IST" duration-ms="2048" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:tests.LoginTest@28a0fd6c]" started-at="2025-08-02T13:38:12 IST" name="testLogin" finished-at="2025-08-02T13:38:14 IST" duration-ms="1760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@b91d8c4]" started-at="2025-08-02T13:35:10 IST" name="tearDown" finished-at="2025-08-02T13:35:10 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@28a0fd6c]" started-at="2025-08-02T13:38:14 IST" name="tearDown" finished-at="2025-08-02T13:38:14 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- EdgeTests -->
+    <test started-at="2025-08-02T13:38:10 IST" name="ChromeTests" finished-at="2025-08-02T13:38:14 IST" duration-ms="4086">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@b91d8c4]" started-at="2025-08-02T13:38:10 IST" name="setUp" finished-at="2025-08-02T13:38:12 IST" duration-ms="2002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:tests.LoginTest@b91d8c4]" started-at="2025-08-02T13:38:12 IST" name="testLogin" finished-at="2025-08-02T13:38:14 IST" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@b91d8c4]" started-at="2025-08-02T13:38:14 IST" name="tearDown" finished-at="2025-08-02T13:38:14 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

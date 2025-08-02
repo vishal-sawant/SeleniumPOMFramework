@@ -26,3 +26,5 @@
 2025-08-02 13:34:19,794 [TestNG-tests-2] INFO  tests.TestBase - Setting up the browser
 2025-08-02 13:35:06,676 [TestNG-tests-2] INFO  tests.TestBase - Setting up the browser
 2025-08-02 13:35:06,676 [TestNG-tests-1] INFO  tests.TestBase - Setting up the browser
+2025-08-02 13:38:10,466 [TestNG-tests-1] INFO  tests.TestBase - Setting up the browser
+2025-08-02 13:38:10,466 [TestNG-tests-2] INFO  tests.TestBase - Setting up the browser
