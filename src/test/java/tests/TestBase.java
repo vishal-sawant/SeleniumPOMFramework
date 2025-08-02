@@ -33,6 +33,7 @@ public class TestBase {
     	else if (browser.equalsIgnoreCase("chrome")) {
     		driver = new ChromeDriver();
     	}
+    	logger.info("Launching browser: " + browser + " on Thread: " + Thread.currentThread().getId());
     	threadDriver.set(driver);
     	getDriver().manage().window().maximize();
     }
