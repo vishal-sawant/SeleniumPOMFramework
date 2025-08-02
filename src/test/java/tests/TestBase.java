@@ -29,7 +29,7 @@ public class TestBase {
     		options.addArguments("--no-sandbox");
     		options.addArguments("--disable-dev-shm-usage");
     		options.addArguments("--disable-software-rasterizer");
-    		options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application");  // Use 64-bit
+    		//options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application");  // Use 64-bit
     	    driver = new EdgeDriver(options);
 
     	}
